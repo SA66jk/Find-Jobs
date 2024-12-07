@@ -1,0 +1,363 @@
+{
+	"code": 0,
+	"data": [
+		{
+			"path": "/home",
+			"name": "home",
+			"component": "home",
+			"meta": {
+				"title": "message.router.home",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": true,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "iconfont icon-shouye"
+			}
+		},
+		{
+			"path": "/xtyhgl",
+			"name": "xtyhgl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "Admin manage",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/guanliyuan/1",
+					"name": "guanliyuan",
+					"component": "guanliyuan/index",
+					"meta": {
+						"title": "Admin queries",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/xinwentongzhigl",
+			"name": "xinwentongzhigl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "News data manage",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/xinwentongzhi/1",
+					"name": "xinwentongzhi",
+					"component": "xinwentongzhi/index",
+					"meta": {
+						"title": "News data settings",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/bhtgl",
+			"name": "bhtgl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "Carousel settings",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/bianhuantu/1",
+					"name": "bianhuantu",
+					"component": "bianhuantu/index",
+					"meta": {
+						"title": "Carousel settings",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+
+{
+			"path": "/yonghuglygl",
+			"name": "yonghuglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "Candidate manage",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/yonghuxinxi/1",
+					"name": "yonghuxinxi",
+					"component": "yonghuxinxi/index",
+					"meta": {
+						"title": "Job Seeker Inquiries",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/qiyeglygl",
+			"name": "qiyeglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "manage",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/qiyexinxi/1",
+					"name": "qiyexinxi",
+					"component": "qiyexinxi/index",
+					"meta": {
+						"title": "Enterprise Inquiries",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/jianlitoudiglygl",
+			"name": "jianlitoudiglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "Resume delivery manage",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/jianlitoudi/1",
+					"name": "jianlitoudi",
+					"component": "jianlitoudi/index",
+					"meta": {
+						"title": "Resume delivery inquiry",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/jianliglygl",
+			"name": "jianliglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "Resume manage",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/jianlixinxi/1",
+					"name": "jianlixinxi",
+					"component": "jianlixinxi/index",
+					"meta": {
+						"title": "Resume inquiry",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/xiaoxitongzhiglygl",
+			"name": "xiaoxitongzhiglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "Message manage",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/xiaoxitongzhi/1",
+					"name": "xiaoxitongzhi",
+					"component": "xiaoxitongzhi/index",
+					"meta": {
+						"title": "Messagequery",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/gangweiglygl",
+			"name": "gangweiglygl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "Post manage",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/gangweixinxi/1",
+					"name": "gangweixinxi",
+					"component": "gangweixinxi/index",
+					"meta": {
+						"title": "Job inquiry",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/jianlitoudiglytj",
+			"name": "jianlitoudiglytj",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "Resume delivery statistics",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/jianlitoudi_tj_gangweimingcheng/1",
+					"name": "jianlitoudi_tj_gangweimingcheng",
+					"component": "jianlitoudi_tj_gangweimingcheng/index",
+					"meta": {
+						"title": "Statistics are collected by job title",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["guanliyuan"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+
+
+
+
+		
+		
+
+		{
+			"path": "/resetPass",
+			"name": "resetPass",
+			"component": "resetPass/index",
+			"meta": {
+				"title": "message.router.resetPass",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["guanliyuan"],
+				"icon": "el-icon-s-grid"
+			}
+		}
+	]
+}
