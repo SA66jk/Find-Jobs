@@ -1,0 +1,200 @@
+{
+	"code": 0,
+	"data": [
+		{
+			"path": "/home",
+			"name": "home",
+			"component": "home",
+			"meta": {
+				"title": "message.router.home",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": true,
+				"isIframe": false,
+				"roles": ["qiye"],
+				"icon": "iconfont icon-shouye"
+			}
+		},
+		{
+			"path": "/qiyexinxigrzlgl",
+			"name": "qiyexinxigrzlgl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "Personal Data manage",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["qiye"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/qiyexinxi_updt2/1",
+					"name": "qiyexinxi_updt2",
+					"component": "qiyexinxi/personal/index",
+					"meta": {
+						"title": "Modify your personal details",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["qiye"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/gangweiqiyegl",
+			"name": "gangweiqiyegl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "Post manage",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["qiye"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/gangweixinxi/1",
+					"name": "gangweixinxi",
+					"component": "gangweixinxi/index",
+					"meta": {
+						"title": "Job inquiry",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["qiye"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/jianlitoudiqiyegl",
+			"name": "jianlitoudiqiyegl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "Resume delivery manage",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["qiye"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/jianlitoudi/1",
+					"name": "jianlitoudi",
+					"component": "jianlitoudi/index",
+					"meta": {
+						"title": "Resume delivery inquiry",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["qiye"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+{
+			"path": "/xiaoxitongzhiqiyegl",
+			"name": "xiaoxitongzhiqiyegl",
+			"component": "layout/routerView/parent",
+			"meta": {
+				"title": "Message  query",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["qiye"],
+				"icon": "el-icon-s-grid"
+			},
+			"children": [
+				{
+					"path": "/jianlitoudi_xiaoxitongzhi/1",
+					"name": "jianlitoudi_xiaoxitongzhi",
+					"component": "xiaoxitongzhi/jianlitoudi_xiaoxitongzhi",
+					"meta": {
+						"title": "Message notification Add",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["qiye"],
+						"icon": "iconfont icon-caidan"
+					}
+				},
+{
+					"path": "/xiaoxitongzhi/1",
+					"name": "xiaoxitongzhi",
+					"component": "xiaoxitongzhi/index",
+					"meta": {
+						"title": "Message query",
+						"isLink": "",
+						"isHide": false,
+						"isKeepAlive": true,
+						"isAffix": false,
+						"isIframe": false,
+						"roles": ["qiye"],
+						"icon": "iconfont icon-caidan"
+					}
+				}
+			]
+		},
+
+
+
+
+		
+		{
+			"path": "/xiaoxitongzhiAdd",
+			"name": "xiaoxitongzhiAdd",
+			"component": "xiaoxitongzhi/xiaoxitongzhi_addlbdq",
+			"meta": {
+				"title": "Message notification Add",
+				"isLink": "",
+				"isHide": true,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["qiye"],
+				"icon": "el-icon-school"
+			}
+		},
+		
+
+		{
+			"path": "/resetPass",
+			"name": "resetPass",
+			"component": "resetPass/index",
+			"meta": {
+				"title": "message.router.resetPass",
+				"isLink": "",
+				"isHide": false,
+				"isKeepAlive": true,
+				"isAffix": false,
+				"isIframe": false,
+				"roles": ["qiye"],
+				"icon": "el-icon-s-grid"
+			}
+		}
+	]
+}
